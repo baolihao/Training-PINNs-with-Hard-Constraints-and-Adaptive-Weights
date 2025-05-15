@@ -11,17 +11,17 @@ This repository contains the source code and data accompanying our experiments o
 - Belousov–Zhabotinsky reaction–diffusion system  
 - Nonlinear Schrödinger equation
   
-## 📁 Contents
+##  Contents
 
 The following resources are included in this repository or the supplementary material:
 
-- ✅ Source code for training PINNs on each PDE benchmark
-- ✅ Initial training data and preprocessing scripts
-- ✅ Pretrained weights for reproducibility
-- ✅ MATLAB Chebfun scripts for generating reference (ground truth) solutions
-- ✅ Ground truth solution data for benchmarking
+-  Source code for training PINNs on each PDE benchmark
+-  Initial training data and preprocessing scripts
+-  Pretrained weights for reproducibility
+-  MATLAB Chebfun scripts for generating reference (ground truth) solutions
+-  Ground truth solution data for benchmarking
 
-## 📦 Getting Started
+##  Getting Started
 
 1. **Clone the repository:**
    ```bash
