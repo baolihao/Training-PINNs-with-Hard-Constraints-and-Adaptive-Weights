@@ -1,0 +1,1 @@
+# Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights
