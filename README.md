@@ -1,6 +1,4 @@
 # Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights
-# PINN Experiments for Stiff Time-Dependent PDEs
-
 This repository contains the source code and data accompanying our experiments on solving stiff time-dependent partial differential equations (PDEs) using Physics-Informed Neural Networks (PINNs). We evaluate our proposed scheme on **seven representative PDE benchmarks** featuring periodic boundaries and challenging dynamics, including:
 
 - Allen–Cahn equation: Case 1
