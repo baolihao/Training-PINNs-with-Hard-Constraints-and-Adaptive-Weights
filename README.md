@@ -25,5 +25,5 @@ The following resources are included in this repository or the supplementary mat
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pinn-stiff-pdes.git
-   cd pinn-stiff-pdes
+   git clone https://github.com/baolihao/Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights.git
+   cd Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights
