@@ -21,9 +21,28 @@ The following resources are included in this repository or the supplementary mat
 -  MATLAB Chebfun scripts for generating reference (ground truth) solutions
 -  Ground truth solution data for benchmarking
 
+## Running on MPS Backend (Apple Silicon GPU)
+If you are using an Apple device with an M1, M2, or later chip, you can accelerate training by enabling the MPS backend in PyTorch.
+
+### Requirements
+- macOS 12.3 or later
+- PyTorch 1.12 or newer with MPS support
+
+### Usage
+Ensure MPS is available by running:
+```bash
+import torch
+print(torch.backends.mps.is_available())
+In your training script, set the device with:
+```bash
+device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
+model.to(device)
+This will use the MPS GPU when available and fallback to CPU otherwise.
+
 ##  Getting Started
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/baolihao/Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights.git
    cd Training-PINNs-with-Hard-Constraints-and-Adaptive-Weights
+
