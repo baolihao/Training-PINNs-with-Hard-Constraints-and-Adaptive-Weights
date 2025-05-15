@@ -40,6 +40,7 @@ In your training script, set the device with:
 device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
 model.to(device)
 '''
+
 This will use the MPS GPU when available and fallback to CPU otherwise.
 
 ##  Getting Started
