@@ -33,13 +33,13 @@ Ensure MPS is available by running:
 ```python
 import torch
 print(torch.backends.mps.is_available())
-'''
+‘’‘
 
 In your training script, set the device with:
 ```python
 device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
 model.to(device)
-'''
+’‘’
 
 This will use the MPS GPU when available and fallback to CPU otherwise.
 
